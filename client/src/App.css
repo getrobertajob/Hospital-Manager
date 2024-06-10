@@ -1,0 +1,195 @@
+/* CSS for Header.jsx */
+.headerContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: lightgray;
+    height: 50px;
+    margin: 10px;
+}
+.headerBtnLeft, .headerBtnRight{
+    background-color: white;
+    padding: 5px;
+    border: solid 3px black;
+    width: 80px;
+    height: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+    box-shadow: 3px 3px;
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-right: 20px;
+}
+
+
+/* CSS for Home.jsx */
+.homeContainer{
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    margin: 30px;
+    padding: 5px;
+}
+.patientBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 2px black;
+    margin: 20px;
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    padding-top: 0;
+    gap: 10px;
+    font-weight: bolder;
+    font-size: larger;
+}
+.editBtn{
+    background-color: white;
+    padding: 5px;
+    border: solid 3px black;
+    width: 30px;
+    height: 15px;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+    box-shadow: 3px 3px;
+    margin-bottom: 10px;
+    padding-top: 0;
+}
+
+
+
+/* CSS for PatientDetails.jsx */
+.detailsContainer{
+    border: solid 2px black;
+    width: 75%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    padding-bottom: 40px;
+    font-size: larger;
+    font-weight: bolder;
+}
+.symptomLbl{
+    font-weight: bolder;
+    font-size: 28pt;
+    margin-top: 30px;
+}
+.deleteBtn{
+    background-color: white;
+    padding: 5px;
+    border: solid 3px black;
+    width: 170px;
+    height: 35px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+    box-shadow: 3px 3px;
+    margin-top: 50px;
+}
+
+
+
+/* CSS for PatientUpdate.jsx */
+.updateForm{
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    width: 50%;
+    text-align: center;
+}
+.formGroupU{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bolder;
+}
+.inputsU, .numInputU{
+    text-align: center;
+    border: solid 2px black;
+}
+.numInputU{
+    width: 50px;
+}
+.textAreaU{
+    border: solid 2px black;
+}
+.updateBtn{
+    background-color: white;
+    padding: 5px;
+    border: solid 3px black;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+    box-shadow: 3px 3px;
+}
+
+
+/* CSS for PatientCreate.jsx */
+.createForm{
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    width: 50%;
+    text-align: center;
+}
+.formGroupC{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bolder;
+}
+.inputsC, .numInputC{
+    text-align: center;
+    border: solid 2px black;
+}
+.numInputC{
+    width: 50px;
+}
+.textAreaC{
+    border: solid 2px black;
+}
+.createBtn{
+    background-color: white;
+    padding: 5px;
+    border: solid 3px black;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+    box-shadow: 3px 3px;
+}
+
+
+/* CSS for error messages */
+.errorBox{
+    color: red;
+}
